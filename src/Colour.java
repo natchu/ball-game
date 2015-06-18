@@ -10,6 +10,15 @@ public class Colour {
 
     private int colour;
 
+    public Colour(int colour) {
+        this.colour = colour;
+    }
+
+    public int valueOf()
+    {
+        return colour;
+    }
+
     @Override
     public String toString() {
         if (colour == 1)

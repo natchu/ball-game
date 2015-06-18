@@ -16,8 +16,13 @@ public class Ball {
         return colour;
     }
 
+    public Ball(Colour colour) {
+        this.colour = colour;
+    }
+
     @Override
     public String toString() {
         return colour.toString() + " ball";
     }
+
 }
